@@ -42,10 +42,8 @@ Grades:
 ### Prediction Output
 ![image alt](https://github.com/asvarshini/student-performance-app/blob/main/home-interface.png?raw=true)
 
-
-
 ### Validation Messages
-(Add screenshot here)
+![image alt](https://github.com/asvarshini/student-performance-app/blob/main/validation.png?raw=true)
 
 ---
 
