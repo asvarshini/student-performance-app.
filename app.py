@@ -56,9 +56,29 @@ st.write(
 )
 
 # Empty input boxes
-attendance = st.text_input("Attendance (%)")
-marks = st.text_input("Marks")
-assignments = st.text_input("Assignments Submitted")
+attendance = st.number_input(
+    "Attendance (%)",
+    min_value=0,
+    max_value=100,
+    value=None,
+    placeholder="Enter attendance percentage"
+)
+
+marks = st.number_input(
+    "Marks",
+    min_value=0,
+    max_value=100,
+    value=None,
+    placeholder="Enter marks"
+)
+
+assignments = st.number_input(
+    "Assignments Submitted",
+    min_value=0,
+    max_value=6,
+    value=None,
+    placeholder="Enter assignments submitted"
+)
 
 # -----------------------------
 # PREDICTION BUTTON
